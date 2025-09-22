@@ -1,4 +1,5 @@
 import { createSimpleModal } from './modules/modal.js';
+import { initSliders } from './modules/slider.js';
 
 function initHeaderModals() {
   console.log('Initializing header modals...');
@@ -27,4 +28,5 @@ function initHeaderModals() {
 // DOM 로드 완료 후 초기화
 document.addEventListener('DOMContentLoaded', () => {
   initHeaderModals();
+  initSliders();
 });
