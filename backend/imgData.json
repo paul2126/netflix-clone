@@ -5,14 +5,24 @@
         "http://localhost:8080/images/card3.webp",
         "http://localhost:8080/images/card4.webp",
         "http://localhost:8080/images/card5.webp",
-        "http://localhost:8080/images/card6.webp"
+        "http://localhost:8080/images/card6.webp",
+        "http://localhost:8080/images/card5.webp",
+        "http://localhost:8080/images/card6.webp",
+        "http://localhost:8080/images/card1.webp",
+
+        "http://localhost:8080/images/card3.webp"
     ],
     "ranking-url": [
         "http://localhost:8080/images/ranking1.webp",
         "http://localhost:8080/images/ranking2.webp",
         "http://localhost:8080/images/ranking3.webp",
         "http://localhost:8080/images/ranking4.webp",
-        "http://localhost:8080/images/ranking5.webp"
+        "http://localhost:8080/images/ranking5.webp",
+        "http://localhost:8080/images/card1.webp",
+        "http://localhost:8080/images/card2.webp",
+        "http://localhost:8080/images/card3.webp",
+        "http://localhost:8080/images/card4.webp",
+        "http://localhost:8080/images/card5.webp"
     ],
     "hero-url": "http://localhost:8080/images/hero.webp",
     "netflix-logo": "http://localhost:8080/images/netflix.webp",
