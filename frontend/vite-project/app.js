@@ -138,9 +138,9 @@ async function loadAndDisplayImages() {
 
     // Update other images if needed
     if (imgData["hero-url"]) {
-      const heroImg = document.querySelector(".hero img");
-      if (heroImg) {
-        heroImg.src = imgData["hero-url"];
+      const heroSection = document.querySelector('.hero');
+      if (heroSection) {
+        heroSection.style.backgroundImage = `url("${imgData['hero-url']}")`;
       }
     }
 
