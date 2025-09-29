@@ -10,6 +10,9 @@ app.use((req, res, next) => {
     next()
 })
 
+// Serve static files from the img directory
+app.use('/images', express.static(path.join(__dirname, 'img')))
+
 app.listen(8080, () => {
     console.log('http://localhost:8080 에서 서버 실행중')
 })
